@@ -22,4 +22,4 @@ I am interested in everything about **machine learning** and **data-driven decis
 
 Having a solid backgound in computer science, I am an experienced data engineer/scientist in building robust **ETL** piplines and **RESTful APIs**, automating data processes, and designing dashboards and reports.
 
-I enjoy working on **quantitative research** on financial content and software development to play with backend algorithms and frontend UI/UX. I developed two search and data management systems, one chatbot system using **Flask**, **Vue.js**, **ElasticSearch**, etc.
+I enjoy working on **quantitative research** on financial content for bussiness insights and **software development** to play with backend algorithms/engines (Optimizations, Data piplines, ElasticSearch) and frontend UI/UX (Vue.js).
