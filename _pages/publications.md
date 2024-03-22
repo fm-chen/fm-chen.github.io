@@ -4,7 +4,7 @@ permalink: /publications/
 title: publications
 description: Pulications and conference proceedings.
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 
 <!-- _pages/publications.md -->
