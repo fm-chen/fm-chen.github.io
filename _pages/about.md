@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. candidate in Financial Services Analytics at University of Delaware.
+subtitle: Ph.D. candidate in [FSAN](https://lerner.udel.edu/programs/phd-programs/financial-services-analytics-phd/) at University of Delaware.
 
 profile:
   align: right
