@@ -14,5 +14,3 @@ Project Github Link: https://github.com/fm-chen/flask-elasticsearch-pdf
     ---
 
 Index files and then search by filename, file extension, pdf content, excel column name, and more. 
-
-{% endraw %}
