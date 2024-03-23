@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Fine-tuned LLMs for Text Classification
-description: Focus on open-sourced LLMs with low-rank adaption.
+title: Fine-tuned LLMs
+description: Focus on open-sourced LLMs with low-rank adaption for Text Classification.
 img: assets/img/llms.png
 importance: 1
 category: work

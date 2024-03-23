@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CPI Data Management System Development
+title: System Development
 description: A data search and management system with Flask and Elasticsearch
 img: assets/img/CPI_system.png
 importance: 3
