@@ -18,7 +18,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am interested in everything about **machine learning** and **data-driven decision makings**. I currently work with [Prof. Hui Fang](https://www.ece.udel.edu/people/faculty/hfang/) at [FSAN](https://lerner.udel.edu/programs/phd-programs/financial-services-analytics-phd/) about **fairness evaluation** and **fair ranking** algorithms for information retrieval systems (open web search) using **NLP**, **LLMs**, and other machine learning algorithms.
+I am interested in everything about **machine learning** and **data-driven decision makings**. I currently work with [Prof. Hui Fang](https://www.ece.udel.edu/people/faculty/hfang/) at [FSAN](https://lerner.udel.edu/programs/phd-programs/financial-services-analytics-phd/) about **fairness evaluation** and **fair ranking** algorithms for information retrieval systems (open web search) using **NLP**, **LLMs**, and other machine learning techniques.
 
 Having a solid backgound in computer science, I am an experienced data engineer/scientist in building robust **ETL** piplines and **RESTful APIs**, automating data processes, and designing dashboards and reports.
 
