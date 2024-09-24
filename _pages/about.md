@@ -2,7 +2,9 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. candidate in FSAN @ University of Delaware. Data Engineer Fellow @ Tech Impact.
+subtitle: >
+  Ph.D. candidate in FSAN @ University of Delaware. 
+  Data Engineer Fellow @ Tech Impact.
 
 profile:
   align: right
