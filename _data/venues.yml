@@ -1,19 +1,9 @@
-"ICTIR":
-  url: https://sigir.org/conferences/ictir/
+"AJP":
+  url: https://aapt.scitation.org/journal/ajp
   color: "#00369f"
 
-"NTCIR":
-  url: https://research.nii.ac.jp/ntcir/index-en.html
-  color: "#00369f"
+"PhysRev":
+  url: https://journals.aps.org/
 
-"TREC":
-  url: https://trec.nist.gov/
-  color: "#00369f"
-
-"NLDB":
-  url: https://nldb2024.di.unito.it/
-  color: "#00369f"
-
-"SIGIR":
-  url: https://sigir-2024.github.io/
-  color: "#00369f"
+"Vision":
+  color: "#009f36"
