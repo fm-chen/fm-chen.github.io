@@ -36,8 +36,7 @@
       "institution": "University of Delaware, Institute for Financial Services Analytics",
       "location": "Newark, DE, USA",
       "url": "https://lerner.udel.edu/centers/institute-for-financial-services-analytics/",
-      "area": "Information Retrieval, FinTech",
-      "studyType": "PhD",
+      "studyType": "PhD in Computer Engineering and FinTech",
       "startDate": "2020-09-01",
       "endDate": "2025-01-01",
       "courses": ["Statistical and Machine Learning", "Financial Market and Risk Management", "Data Mining and Information Retrieval"]
@@ -46,8 +45,7 @@
       "institution": "University of Delaware, Department of Accounting and MIS",
       "location": "Newark, DE, USA",
       "url": "https://lerner.udel.edu/departments/accounting-management-information-systems/",
-      "area": "Data Science and Management Information Systems",
-      "studyType": "Master's",
+      "studyType": "Master's in Management Information Systems",
       "startDate": "2017-09-01",
       "endDate": "2019-06-01",
       "courses": ["Database Design and Management", "Decision Analytics and Data Visualizations"]
@@ -56,8 +54,7 @@
       "institution": "Beijing Jiaotong University, School of Computer and Information Technology",
       "location": "Beijing, China",
       "url": "http://en.njtu.edu.cn/",
-      "area": "Computer Science",
-      "studyType": "Bachelor's",
+      "studyType": "Bachelor's in Computer Science",
       "startDate": "2012-09-01",
       "endDate": "2016-01-01",
       "courses": ["Data Structure", "Computer Organization", "Computer Programming"]
@@ -120,11 +117,11 @@
       "name": "Information Retrieval",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Recommendation Systems",
         "Open Web Search",
-        "Conversational Recommendation Systems",
         "Ranking Fairness",
-        "Retrieval Augmented Generation"
+        "Recommendation Systems",
+        "Retrieval Augmented Generation",
+        "Conversational Recommendation Systems"
       ]
     },
     {
