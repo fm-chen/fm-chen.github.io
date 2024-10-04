@@ -4,6 +4,7 @@ title: about
 permalink: /
 subtitle: >
   Ph.D. candidate in FSAN @ University of Delaware. 
+  
   Data Scientist Fellow @ Tech Impact.
 
 profile:
