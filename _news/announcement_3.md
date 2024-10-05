@@ -5,4 +5,4 @@ inline: true
 related_posts: true
 ---
 
-Our paper (I co-authored) *"Behavior Alignment: A New Perspective of Evaluating LLM-based Conversational Recommendation Systems"* is published at SIGIR 2024.
+The paper I co-authored *"Behavior Alignment: A New Perspective of Evaluating LLM-based Conversational Recommendation Systems"* is published at SIGIR 2024.
