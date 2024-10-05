@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-07-11 00:00:00-0400
+date: 2023-08-09 00:00:00-0400
 inline: true
 related_posts: true
 ---
 
-The paper I co-authored *"Behavior Alignment: A New Perspective of Evaluating LLM-based Conversational Recommendation Systems"* is published at SIGIR 2024.
+Our paper *"Learn to be Fair without Labels: A Distribution-based Learning Framework for Fair Ranking"* is published at ICTIR 2023.
