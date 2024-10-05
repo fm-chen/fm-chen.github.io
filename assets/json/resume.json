@@ -5,7 +5,7 @@
     "email": "fmchen@udel.edu",
     "phone": "(302) 501-0777",
     "url": "https://fm-chen.github.io/",
-    "summary": "I am a Ph.D. candidate in Fintech and Computer Engineering. My interests and passion lie at Machine Learning for Data-heavy Systems",
+    "summary": "I am a Ph.D. candidate in Fintech and Computer Engineering. My interests and passion lie at search fairness, NLP, ML, and GenAI",
     "location": {
       "city": "Newark, DE",
       "countryCode": "US"
@@ -18,7 +18,7 @@
       "url": "https://techimpact.org/",
       "startDate": "2024-06-01",
       "endDate": "2025-01-01",
-      "summary": "Data science for social good problems (e.g., benefit cliffs, algorithm interpretability)",
+      "summary": "Using data for social good problems (e.g., benefit cliffs, algorithm interpretability)",
       "highlights": ["Python, Azure, Docker, Tableau, RAG"]
     },
     {
@@ -27,7 +27,7 @@
       "url": "https://www.gnosisfreight.com/",
       "startDate": "2019-07-01",
       "endDate": "2020-07-01",
-      "summary": "Data science for supply chain management for logistic industry (e.g., route optimization, process automation)",
+      "summary": "Design data-driven solutions for supply chain management in logistic industry (e.g., route optimization, process automation)",
       "highlights": ["Python, AWS, Docker, ETL, Optimization"]
     }
   ],
