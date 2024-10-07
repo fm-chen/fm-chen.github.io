@@ -16,13 +16,13 @@ This project aims to help people navigate benefit cliffs and supports the develo
 In other words, people face benefit cliffs when their income grows, but they are worse off since they lose benefits. To quantify a benefit cliff, we would like to define it quantitively.
 
 $$
-\text{Benefit Cliff} = \int \text{Net Resource w/ cliffs} - \text{Net Resource w/o cliffs}
+\text{Benefit Cliff} = \int_{\text{income}} \text{Net Resource w/ cliffs} - \text{Net Resource w/o cliffs}
 $$
 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/bfcliffs.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/bfcliffs.png" title="example image" class="img-fluid w-1/2 rounded z-depth-1" %}
     </div>
 </div>
 
