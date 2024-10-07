@@ -1,49 +1,42 @@
 ---
 layout: page
-title: Fine-tune Language Models.
-description: Are LMs/LLMs good for annotation?.
-img: assets/img/12.jpg
+title: Benefit Cliffs
+description: Data analysis for benefit cliffs.
+img: assets/img/bfcliffs.jpg
 importance: 1
 category: work
 giscus_comments: true
-related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This project aims to help people navigate benefit cliffs and supports the development of benefit cliff tools to which I contribute.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+"People face a benefits cliff (also known as the “cliff effect”) when they receive public benefits from the government, earn a raise, and then discover that they make too much money to receive the benefits. But they are not making enough money to sustain themselves and their household."  -- [benefitscliff.com](https://www.benefitscliff.com/what-is-a-benefits-cliff)
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+
+In other words, people face benefit cliffs when their income grows, but they are worse off since they lose benefits. To quantify a benefit cliff, we would like to define it quantitively.
+
+$$
+\text{Benefit Cliff} = \int \text{Net Resource w/ cliffs} - \text{Net Resource w/o cliffs}
+$$
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/bfcliffs.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+
+
+To calculate net resources based on different income levels, we use the open-source [repository](https://github.com/Research-Division/policy-rules-database) that contains up-to-date rules and provisions for all major federal and state public assistance programs, taxes, and tax credits in a single easy-to-use database.
+
+
+
+
+
+
+
+
+
 
 You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
 Say you wanted to write a bit about your project before you posted the rest of the images.
