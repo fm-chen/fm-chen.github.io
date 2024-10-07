@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: CoachGPT
+description: A GenAI powered academic writing assistant ChatBot.
 img: assets/img/12.jpg
 importance: 1
-category: work
-related_publications: true
+category: fun
+giscus_comments: true
 ---
 
 Every project has a beautiful feature showcase page.
