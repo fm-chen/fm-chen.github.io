@@ -20,8 +20,8 @@ $$
 $$
 
 
-<div class="row justify-content-center">
-    <div class="col-sm-auto mt-3 mt-md-0">
+<div class="row d-flex justify-content-center">
+    <div class="col-sm-auto mt-3 mt-md-0" style="width:50%;">
         {% include figure.liquid loading="eager" path="assets/img/bfcliffs.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
