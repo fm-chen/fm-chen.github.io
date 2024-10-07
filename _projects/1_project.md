@@ -2,11 +2,20 @@
 layout: page
 title: CoachGPT
 description: A GenAI powered academic writing assistant ChatBot.
-img: assets/img/12.jpg
+img: assets/img/chatbot.png
 importance: 1
 category: fun
 giscus_comments: true
 ---
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://www.youtube.com/embed/cIZnCm1awMc" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+
+**Live [Demo](https://infochain.ece.udel.edu/coachgpt/)**.
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

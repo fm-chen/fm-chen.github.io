@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Benefit Cliffs
-description: Data analysis for benefit cliffs.
+description: Help people and policy makers navigate benefit cliffs.
 img: assets/img/bfcliffs.jpg
 importance: 1
 category: work
@@ -27,7 +27,7 @@ $$
 </div>
 
 
-To calculate net resources based on different income levels, we use the open-source [repository](https://github.com/Research-Division/policy-rules-database) that contains up-to-date rules and provisions for all major federal and state public assistance programs, taxes, and tax credits in a single easy-to-use database.
+To calculate net resources based on different income levels, we use the open-source [repository](https://github.com/Research-Division/policy-rules-database) that contains up-to-date rules and provisions for all major federal and state public assistance programs, taxes, and tax credits in a single easy-to-use database. Detailed calculation of benefits is also provided in the [technical mannual](https://github.com/Research-Division/policy-rules-database/blob/a806195682b7515f01b5739343b91201293dddb4/PRD%20Technical%20Manual.pdf).
 
 
 
