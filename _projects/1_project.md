@@ -8,7 +8,9 @@ category: fun
 giscus_comments: true
 ---
 
-CoachGPT is an AI chatbot aimed at helping students with academic writing through scaffolding instruction.
+This is a project that I am currently participating in and collaborating with the people from the School of Education at the University of Delaware. We want to develop an AI-based chatbot called "CoachGPT" to assist academic writing in English and help students complete their assignments step by step. The high-level goal of this project is to (1) make writing/learning fun and effective, (2) support self-regulative learning for everyone, everywhere, regardless of what resources they have, and (3) check the impact of the projects on users to understand the project, limitations, and areas of improvements.
+
+We leverage the software development lifecycle (SDLC) methodology to guide our system development. We first spend time on planning to gather user requirements, allocate resources, set up budgets, schedule meetings, estimate implementation timelines, and clarify deliverables at later stages. 
 
 <div class="row d-flex justify-content-center">
     <div class="col-sm-auto mt-3 mt-md-0" style="width:50%;">
@@ -19,9 +21,15 @@ CoachGPT is an AI chatbot aimed at helping students with academic writing throug
    CoachGPT's System Implementation Structure.
 </div>
 
-Chatbot core is powered by [ChatGPT](https://openai.com/) implemented by [LangChain](https://python.langchain.com/v0.1/docs/use_cases/chatbots/).
+Chatbot core is powered by [ChatGPT](https://openai.com/) implemented by [LangChain](https://python.langchain.com/v0.1/docs/use_cases/chatbots/). Full implementation code and development documents are currently in private, but you can check out our:
 
 **Live [Demo](https://infochain.ece.udel.edu/coachgpt/)** and **User Video Tutorial**.
+
+    ---
+    user: test@gmail.com 
+    password: password
+    ---
+
 
 <div class="row d-flex justify-content-center">
     <div class="col-sm-auto mt-3 mt-md-0" style="width:50%;">
@@ -29,74 +37,45 @@ Chatbot core is powered by [ChatGPT](https://openai.com/) implemented by [LangCh
     </div>
 </div>
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
+Example code from [LangServe](https://python.langchain.com/docs/langserve/) to build a similar chatbot app:
 
 ```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
+#!/usr/bin/env python
+from fastapi import FastAPI
+from langchain.prompts import ChatPromptTemplate
+from langchain.chat_models import ChatAnthropic, ChatOpenAI
+from langserve import add_routes
+
+app = FastAPI(
+    title="LangChain Server",
+    version="1.0",
+    description="A simple api server using Langchain's Runnable interfaces",
+)
+
+add_routes(
+    app,
+    ChatOpenAI(model="gpt-3.5-turbo-0125"),
+    path="/openai",
+)
+
+add_routes(
+    app,
+    ChatAnthropic(model="claude-3-haiku-20240307"),
+    path="/anthropic",
+)
+
+model = ChatAnthropic(model="claude-3-haiku-20240307")
+prompt = ChatPromptTemplate.from_template("tell me a joke about {topic}")
+add_routes(
+    app,
+    prompt | model,
+    path="/joke",
+)
+
+if __name__ == "__main__":
+    import uvicorn
+
+    uvicorn.run(app, host="localhost", port=8000)
 ```
 
-{% endraw %}
+
