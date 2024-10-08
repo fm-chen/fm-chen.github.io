@@ -18,7 +18,7 @@ This project aims to help people navigate benefit cliffs and supports the develo
 In other words, people face benefit cliffs when their income grows, but they are worse off since they lose benefits. To quantify a benefit cliff, we would like to define it quantitively.
 
 $$
-\text{Benefit Cliff} = \int_{\text{income}} \text{Net Resource w/ cliffs} - \text{Net Resource w/o cliffs}
+\text{Benefit Cliff} = \int_{\text{income}} \text{Net Resource w/o cliffs} - \text{Net Resource w/ cliffs}
 $$
 
 where $$\text{Net Resource} = \text{Income} + \text{Benefits} - \text{Expenses}$$.
