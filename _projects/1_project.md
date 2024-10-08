@@ -8,14 +8,26 @@ category: fun
 giscus_comments: true
 ---
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
+CoachGPT is an AI chatbot aimed at helping students with academic writing through scaffolding instruction.
+
+<div class="row d-flex justify-content-center">
+    <div class="col-sm mt-3 mt-md-0"   style="width:50%;">
+        {% include figure.liquid loading="eager" path="assets/img/coachgpt_structure.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+   CoachGPT's System Implementation Structure.
+</div>
+
+Chatbot core is powered by [ChatGPT](https://chatgpt.com/) implemented by [LangChain](https://python.langchain.com/v0.1/docs/use_cases/chatbots/).
+
+**Live [Demo](https://infochain.ece.udel.edu/coachgpt/)** and **User Video Tutorial**.
+
+<div class="row d-flex justify-content-center">
+    <div class="col-sm mt-3 mt-md-0"  style="width:50%;">
         {% include video.liquid path="https://www.youtube.com/embed/cIZnCm1awMc" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
-
-**Live [Demo](https://infochain.ece.udel.edu/coachgpt/)**.
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
