@@ -1,7 +1,7 @@
 ---
 layout: page
-title: CoachGPT
-description: A GenAI powered academic writing assistant ChatBot.
+title: GenAI Chatbot
+description: A GenAI powered academic writing assistant ChatBot (CoachGPT).
 img: assets/img/chatbot.png
 importance: 1
 # category: fun
