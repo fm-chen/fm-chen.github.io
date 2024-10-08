@@ -8,7 +8,7 @@ importance: 1
 giscus_comments: true
 ---
 
-This is a project that I am currently participating in and collaborating with the people from the School of Education at the University of Delaware. We want to develop an AI-based chatbot called "CoachGPT" to assist academic writing in English and help students complete their assignments step by step. The high-level goal of this project is to (1) make writing/learning fun and effective, (2) support self-regulative learning for everyone, everywhere, regardless of what resources they have, and (3) check the impact of the projects on users to understand the project, limitations, and areas of improvements.
+This is a project that I am currently participating in and collaborating with the people from the School of Education at the University of Delaware. We want to develop an AI-based chatbot called "CoachGPT" to assist academic writing in English and help students complete their writing assignments step by step (scaffolding). The high-level goal of this project is to (1) make writing/learning fun and effective, (2) support self-regulative learning for everyone, everywhere, regardless of what resources they have, and (3) check the impact of the projects on users to understand the project, limitations, and areas of improvements.
 
 We leverage the software development lifecycle (SDLC) methodology to guide our system development. We first spend time on planning to gather user requirements, allocate resources, set up budgets, schedule meetings, estimate implementation timelines, and clarify deliverables at later stages. 
 
@@ -39,7 +39,7 @@ Chatbot core is powered by [ChatGPT](https://openai.com/) implemented by [LangCh
 
 Example code from [LangServe](https://python.langchain.com/docs/langserve/) to build a similar chatbot app:
 
-```html
+```python
 #!/usr/bin/env python
 from fastapi import FastAPI
 from langchain.prompts import ChatPromptTemplate
