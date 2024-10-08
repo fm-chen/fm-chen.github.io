@@ -2,9 +2,9 @@
 layout: page
 title: Benefit Cliffs
 description: Help people and policy makers navigate benefit cliffs.
-img: assets/img/bfcliffs.jpg
+img: assets/img/bfcliffs.png
 importance: 1
-category: work
+# category: work
 giscus_comments: true
 ---
 

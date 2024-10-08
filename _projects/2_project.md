@@ -2,9 +2,9 @@
 layout: page
 title: Fine-tune Language Models.
 description: Are LMs/LLMs good for annotation?.
-img: assets/img/finetune.png
+img: assets/img/GMannotation.png
 importance: 1
-category: work
+# category: work
 giscus_comments: true
 related_publications: true
 ---

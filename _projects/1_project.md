@@ -4,7 +4,7 @@ title: CoachGPT
 description: A GenAI powered academic writing assistant ChatBot.
 img: assets/img/chatbot.png
 importance: 1
-category: fun
+# category: fun
 giscus_comments: true
 ---
 
