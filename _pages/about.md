@@ -26,3 +26,5 @@ I am interested in everything about **machine learning** and **data-heavy system
 I enjoy working on **quantitative research** on financial content for bussiness insights and **software development** to build robust piplines for ML algorithms and search applications.
 
 Having a solid backgound in computer science, I am also an experienced data engineer/scientist/architect in building robust **ETL** piplines and **RESTful APIs**, automating data processes, and designing dashboards and reports.
+
+I am also a big fun of **Ski**, **Kayak**, and **Road Trip**.
