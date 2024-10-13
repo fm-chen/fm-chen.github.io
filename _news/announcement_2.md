@@ -5,4 +5,4 @@ inline: true
 related_posts: true
 ---
 
-Successfully defended my dissertation proposal regarding fairness in information retrieval systems.
+Successfully defend my dissertation proposal regarding fairness in information retrieval systems.
