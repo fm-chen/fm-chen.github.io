@@ -27,4 +27,4 @@ I enjoy working on **quantitative research** on financial content for bussiness 
 
 Having a solid backgound in computer science, I am an experienced data engineer/scientist/architect in building robust **ETL** piplines and **RESTful APIs**, automating data processes, and designing dashboards and reports.
 
-I am also a big fun of Ski ⛷️, Kayak 🚣‍♂️, and Road Trip 🛣️.
+I am also a big fan of Ski ⛷️, Kayak 🚣‍♂️, and Road Trip 🛣️.
