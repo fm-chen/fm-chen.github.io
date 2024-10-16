@@ -36,7 +36,7 @@ As the name suggested, a RAG process contains three major steps, *retrieval*, *a
    The typical RAG workflow.
 </div>
 
-### Preliminary Implementation
+### System Implementation
 To build a RAG system, we need to build its retriever and generator. There are AI frameworks, like [LlamaIndex](https://www.llamaindex.ai/) that can help us build RAG piplines but we still need to choose our storage (Vector DB). This work builds the RAG-powered LLM application with [Milvus](https://milvus.io/) and [LlamaIndex](https://www.llamaindex.ai/).
 <div class="row d-flex justify-content-center">
     <div class="col-sm-auto mt-3 mt-md-0" style="width:80%;">
