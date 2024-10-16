@@ -18,8 +18,8 @@ OpenAI o1 ranks in the **89th** percentile on competitive programming questions 
         {% include figure.liquid loading="eager" path="assets/img/gpt_performance.png" title="gpt-perform" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-   Recent development of LLMs (GPT-o1) shows a promising capability of reasoning. ![source](https://openai.com/index/learning-to-reason-with-llms/) 
+<div class="caption"  markdown="1">
+   Recent development of LLMs (GPT-o1) shows a promising capability of reasoning ([source](https://openai.com/index/learning-to-reason-with-llms/)).
 </div> 
 
 Unlike the previous LLMs which suffer from mathematical reasoning, this significant advancement inspired use to re-think the application of LLMs on machine learning interpretability, especially with the emergence of **retrieval augmented generation (RAG)** that addresses the issue of hallucination.
@@ -32,8 +32,8 @@ As the name suggested, a RAG process contains three major steps, *retrieval*, *a
         {% include figure.liquid loading="eager" path="assets/img/Figure_3_RAG_workflow.png" title="rag-workflow" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-   The typical RAG workflow. ![source](https://zilliz.com/learn/build-rag-with-milvus-lite-llama3-and-llamaindex)
+<div class="caption"  markdown="1">
+   The typical RAG workflow ([source](https://zilliz.com/learn/build-rag-with-milvus-lite-llama3-and-llamaindex)).
 </div>
 
 ### System Implementation
