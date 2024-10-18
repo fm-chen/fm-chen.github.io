@@ -8,7 +8,7 @@ category: fun
 giscus_comments: true
 ---
 
-**TL;DR**: *[Live Demo](https://515ed13cc82234667a.gradio.live)*
+**TL;DR**: *[Live Demo](https://29a4dd618c486c524b.gradio.live)*
 
 ### Background
 OpenAI o1 ranks in the **89th** percentile on competitive programming questions (Codeforces), places among the top 500 students in the US in a qualifier for the USA Math Olympiad (AIME), and exceeds human **PhD-level** accuracy on a benchmark of physics, biology, and chemistry problems (GPQA). 
@@ -50,7 +50,7 @@ We use [Ollama](https://ollama.com/) to run open-sourced LLMs locally. Use Llama
 ### \*Monitoring, Fine-tuning and Improvement (under construction)
 These sections involve monitoring/improving the performance of RAG. Different retrieval methods including hybrid search, retrieval evaluation metrics, and LLMs will be tested. Useful tools: [ragas](https://docs.ragas.io/en/stable/)
 
-### [Live Demo](https://515ed13cc82234667a.gradio.live)
+### [Live Demo](https://29a4dd618c486c524b.gradio.live)
 
 Knowledge base in demo: [pdf](/assets/pdf/lime_paper.pdf)
 <div class="row d-flex justify-content-center">
